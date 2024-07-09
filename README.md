@@ -14,11 +14,11 @@ Sensor suhu, asap, dan api berfungsi untuk mendeteksi kebakaran. Sensor suhu dig
 
 ## Hasil Pengujian
 Pada saat melakukan pengujian alat monitoring kebakaran dengan menguji setiap sensor yang digunakan untuk memonitoring keadaan ruangan, hasil yang didapatkan adalah semua sensor dapat bekerja dengan baik dan dapat mengirimkan notifikasi ke pengguna melalui Telegram. Adapun hasil dari pengujian sistem diantaranya:
-1. Pengujian Sensor Suhu
+1. Pengujian Sensor Suhu <br/>
 Pada pengujian sensor suhu, dilakukan dengan cara melakukan peningkat suhu di sekitar sensor dengan membuat api. nilai suhu udara di sekitar sensor akan ditampilkan di layar LCD. jika terdeteksi suhu ruangan yang tinggi, sistem akan mengirimkan notifikasi ke pengguna bahwa saat ini suhu ruangan sedang tinggi. Dalam pengujian ini, pengukuran Suhu udara berhasil dilakukan dengan menggunakan sensor dht11 yang bekerja dengan cara mengukur suhu yang ada di sekitar.
-2. Pengujian Sensor Asap
+2. Pengujian Sensor Asap <br/>
 Pada pengujian sensor asap, dilakukan pengujian dengan cara membuat asap di sekitar sensor, saat terdeteksi asap, sistem akan mengirimkan notifikasi ke pengguna bahwa ada asap pada ruangan. Selanjutnya yaitu telegram akan memberikan opsi pilihan untuk pengguna untuk menyalakan pompa air atau tidak, jika iya maka pompa air akan menyala. Dalam pengujian ini, sensor asap MQ2 berhasil berjalan dengan baik dengan cara mendeteksi asap yang ada pada sekitar sensor.
-3. Pengujian Sensor Api
+3. Pengujian Sensor Api <br/>
 Pada pengujian sensor api, dilakukan dengan cara membuat api di sekitar sensor, saat terdeteksi adanya api, sistem akan mengirimkan notifikasi ke pengguna bahwa ada api di ruangan. kemudian sistem akan menyalakan lampu peringatan yaitu lampu Led, menyalakan alarm yaitu buzzer, dan menyalakan water pump untuk memadamkan api. IR Infrared Flame Detector berhasil bekerja dengan baik dengan cara mendeteksi api yang ada di sekitar sensor.
-4. Pompa Air
+4. Pompa Air <br/>
 Pompa air akan menyala ketika pengguna memberikan perintah untuk menyalakan pompa air, kemudian pompa air juga akan menyala ketika ada api pada ruangan. dalam pengujian ini pompa air dapat bekerja dengan baik dan dapat memadamkan api yang ada.
